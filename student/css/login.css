@@ -1,0 +1,121 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #286090;
+}
+.con{
+	color: white;
+	margin-top: 15px;
+	text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+}
+p{
+	margin: 0;
+}
+.btn{
+	/*justify-content: center;*/
+	text-align: center;
+	float: left;
+	width: 135px;
+	height: 50px;
+	color: white;
+	margin: 15px 15px 25px 15px;
+    background-color: #286090;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 6px;
+    border-color: white;
+}
+.btn:hover{
+    color:rgba(46, 44, 43, 0.897);
+    background-color:rgb(236, 241, 231);
+    border: 2px solid rgba(68, 78, 80, 0.596);
+    text-decoration: underline;
+}
+.bton{
+    /*justify-content: center;*/
+    /*text-align: center;*/
+    float: left;
+    width: 135px;
+    height: 50px;
+    color: white;
+    margin: 15px 15px 25px 15px;
+    background-color: #286090;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 6px;
+    border-color: white;
+}
+.bton:hover{
+    color:rgba(46, 44, 43, 0.897);
+    background-color:rgb(236, 241, 231);
+    border: 2px solid rgba(68, 78, 80, 0.596);
+    text-decoration: underline;
+}
+.cont{
+    background-color: white;
+    width: 80%;
+    /*text-align: center;*/
+    height: 820px;
+    /*justify-content: center;*/
+    border-radius: 6px;
+    padding: 50px 25px 50px 50px;
+    margin-left: 100px;
+    color: black;
+    float: left;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+.contt{
+    background-color: white;
+    /*width: 80%;*/
+    margin-left: 170px;
+    height: 280px;
+    border-radius: 6px;
+    padding: 50px 50px 30px 50px;
+    /*margin: auto;*/
+    color: black;
+    float: left;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+.bttn{
+    /*justify-content: center;*/
+    text-align: center;
+    margin: 10px;
+}
+.sub{
+    height: 35px;
+    width: 70px;
+    background: rgba(243, 63, 63, 0.993);
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    /*justify-content: center;*/
+}
+.sub:hover{
+    color:rgba(235, 225, 220, 0.897);
+    background-color:rgb(102, 100, 95); 
+    text-decoration: underline;
+    border: 2px solid rgb(228, 235, 236, 0.596);          
+}
+.signupform{
+    display: none;
+}
+.form{
+  position: relative;
+  z-index: 1;
+  /*width: 100%;*/
+  /*height: 150vh;*/
+  /*overflow: hidden;*/
+  /*background-color: #fff;*/
+}
+.show{
+    display: block;
+}
+.hidden{
+    display: none;
+}
